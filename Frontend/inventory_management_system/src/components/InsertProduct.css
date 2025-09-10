@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.insert-wrapper {
+    background: linear-gradient(120deg, #1f1c2c, #928dab);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.insert-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.insert-form .form-group {
+    margin-bottom: 25px;
+}
+
+.insert-form .form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.insert-form .form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    outline: none;
+    transition: 0.3s;
+}
+
+.insert-form .form-group input:focus {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cancel {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.submit {
+    background: linear-gradient(to right, #00b4db, #0083b0);
+    color: #fff;
+}
+
+.submit:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+.error-msg {
+    color: #ff6666;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -10px;
+}
